@@ -1,13 +1,8 @@
 .quote {
     max-width: 600px;
-    /* Sets a max width of approximately 600px */
     margin: 10px;
-    /* Adds margin around the blockquote */
     padding: 15px;
-    /* Adds padding inside the blockquote */
     border-left: 8px solid green;
-    /* Creates a green left border */
     background-color: #f8fffe;
-    /* Light greenish background color */
     font-weight: bold;
 }
