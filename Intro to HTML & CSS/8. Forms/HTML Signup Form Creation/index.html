@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our Service</h1>
+        <p>Join us and unlock exclusive features.</p>
+    </header>
+
+    <!-- Main Signup Form Container -->
+    <main class="container">
+        <form action="" method="post">
+            <!-- Name Field -->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+            </div>
+
+            <!-- Email Field -->
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+
+            <!-- Gender Field (Radio Buttons) -->
+            <div>
+                <span>Gender:</span>
+                <label for="gender_m">Male</label>
+                <input type="radio" id="gender_m" name="gender" value="male" required>
+
+                <label for="gender_f">Female</label>
+                <input type="radio" id="gender_f" name="gender" value="female" required>
+            </div>
+
+            <!-- Car Brands Field (Select) -->
+            <div>
+                <label for="cars">Car Brands:</label>
+                <select id="cars" name="cars" required>
+                    <option value="">Please choose an car brand</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="ford">Ford</option>
+                    <option value="bmw">BMW</option>
+                </select>
+            </div>
+
+            <!-- Age Field -->
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" placeholder="Age" required>
+            </div>
+
+            <!-- DOB Field -->
+            <div>
+                <label for="dob">DOB:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <!-- Phone Number Field -->
+            <div>
+                <label for="tel">Phone Number:</label>
+                <input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx">
+            </div>
+
+            <!-- Password Field -->
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+
+            <!-- Terms of Service Field -->
+            <div>
+                <label for="tos">I agree to the TOS</label>
+                <input type="checkbox" id="tos" name="tos" required>
+            </div>
+
+            <!-- Submit Button -->
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Company. All Rights Reserved.</p>
+        <p>
+            <a href="#" style="color: #fff; text-decoration: underline;">Privacy Policy</a> |
+            <a href="#" style="color: #fff; text-decoration: underline;">Terms of Service</a>
+        </p>
+    </footer>
+</body>
+
+</html>
