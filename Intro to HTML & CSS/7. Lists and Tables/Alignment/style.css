@@ -1,0 +1,31 @@
+.middle {
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-spacing: 1px;
+}
+
+.middle td,
+.middle th {
+    padding: 1px;
+    border: 1px solid black;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.green {
+    background-color: green;
+    color: white;
+    /* Optional: to make text visible on green background */
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+    /* Optional: to make text visible on blue background */
+}

@@ -1,0 +1,40 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Table Container */
+  table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table Headers and Cells */
+  th,
+  td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Header Row Styling */
+  thead {
+    background-color: #009879;
+    color: #ffffff;
+  }
+  
+  /* Alternate Row Colors */
+  tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+  
+  /* Hover Effect for Rows */
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
