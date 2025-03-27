@@ -1,0 +1,32 @@
+:root {
+    background-color: rgb(135, 206, 235);
+}
+
+article p:first-child {
+    color: white;
+    background-color: black;
+}
+
+article p:nth-child(2) {
+    color: inherit;
+}
+
+article p:last-child {
+    color: red;
+}
+
+li {
+    background-color: grey;
+    width: 50%;
+    padding: 10px;
+}
+
+li:first-child,
+li:last-child {
+    font-size: 22px;
+    background-color: white;
+}
+
+li:nth-child(3) {
+    background-color: pink;
+}
