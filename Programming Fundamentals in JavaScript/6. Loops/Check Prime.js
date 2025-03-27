@@ -5,7 +5,7 @@ const readline = require('readline').createInterface({
 
 readline.question('', n => {
     let num = parseInt(n), isPrime = true;
-    let squareRootOfNum = Math.ceil(Math.sqrt(num));
+    let squareRootOfNum = Math.floor(Math.sqrt(num));
 
     for (let factor = 2; factor <= squareRootOfNum; factor++) {
         if (num % factor === 0) {

@@ -1,0 +1,25 @@
+const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+readline.question('', (n) => {
+    let num = parseInt(n);
+    let patternSymbol = '*';
+
+    for (let row = 1; row <= num; row++) {
+        // spaces
+        for (let col = 1; col <= (num - row); col++) {
+            process.stdout.write(" ");
+        }
+
+        // symbols
+        for (let col = (num - row + 1); col <= num; col++) {
+            process.stdout.write(`${patternSymbol} `);
+        }
+
+        console.log();
+    }
+
+    readline.close();
+});
