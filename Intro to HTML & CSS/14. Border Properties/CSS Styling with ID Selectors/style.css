@@ -1,0 +1,23 @@
+#yellow {
+    background-color: yellow;
+    border: 1px solid green;
+    /* 1px border, green color */
+}
+
+/* Paragraph with id="red" */
+#red {
+    background-color: red;
+    border: 1px solid black;
+    /* 1px border, black color */
+    color: white;
+    /* Optional: makes text readable against a red background */
+}
+
+/* Paragraph with id="green" */
+#green {
+    background-color: green;
+    border: 1px solid yellow;
+    /* 1px border, yellow color */
+    color: white;
+    /* Optional: makes text readable against a green background */
+}
